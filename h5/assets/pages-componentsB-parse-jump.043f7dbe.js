@@ -1,1 +1,0 @@
-import{o as r,c as e,w as a,f as s,i as o}from"./index.063d1d59.js";import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";var d=t({},[["render",function(t,d,n,u,f,i){const l=o;return r(),e(l,null,{default:a((()=>[s(" 跳转测试页面 ")])),_:1})}]]);export{d as default};
