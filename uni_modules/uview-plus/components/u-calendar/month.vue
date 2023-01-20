@@ -35,7 +35,7 @@
 	import mixin from '../../libs/mixin/mixin.js';
 	import defprops from '../../libs/config/props';
 	// import dayjs from '../../libs/util/dayjs.js';
-	import dayjs from 'dayjs'
+	import dayjs from 'dayjs/ems/index.js'
 	export default {
 		name: 'u-calendar-month',
 		mixins: [mpMixin, mixin],
@@ -333,7 +333,7 @@
 			// 获取每个月份区域的尺寸
 			getMonthRectByPromise(el) {
 				// #ifndef APP-NVUE
-				// $uGetRect为uView自带的节点查询简化方法，详见文档介绍：https://www.uviewui.com/js/getRect.html
+				// $uGetRect为uView自带的节点查询简化方法，详见文档介绍：https://ijry.github.io/uview-plus/js/getRect.html
 				// 组件内部一般用this.$uGetRect，对外的为uni.$u.getRect，二者功能一致，名称不同
 				return new Promise(resolve => {
 					this.$uGetRect(`.${el}`).then(size => {

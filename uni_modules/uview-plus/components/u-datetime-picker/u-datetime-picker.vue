@@ -34,12 +34,12 @@
 	import mpMixin from '../../libs/mixin/mpMixin.js';
 	import mixin from '../../libs/mixin/mixin.js';
 	// import dayjs from '../../libs/util/dayjs.js';
-	import dayjs from 'dayjs'
+	import dayjs from 'dayjs/ems/index.js'
 
 	/**
 	 * DatetimePicker 时间日期选择器
 	 * @description 此选择器用于时间日期
-	 * @tutorial https://www.uviewui.com/components/datetimePicker.html
+	 * @tutorial https://ijry.github.io/uview-plus/components/datetimePicker.html
 	 * @property {Boolean}			show				用于控制选择器的弹出与收起 ( 默认 false )
 	 * @property {Boolean}			showToolbar			是否显示顶部的操作栏  ( 默认 true )
 	 * @property {String | Number}	value				绑定值
